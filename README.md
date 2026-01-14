@@ -68,6 +68,8 @@ Before running this project, make sure you have the following installed:
    ALGORITHM=HS256
    ACCESS_TOKEN_EXPIRE_MINUTES=30
    ```
+   
+   > Note: Make sure to replace `your-secret-key-here` with a secure random string.
 
 6. **Initialize the database**
    ```bash
@@ -137,9 +139,9 @@ task-manager-api-/
 │       └── users.py
 ├── tests/                # Test files
 ├── requirements.txt      # Project dependencies
-├── .env.example         # Environment variables template
-├── .gitignore          # Git ignore rules
-└── README.md           # This file
+├── .gitignore           # Git ignore rules
+├── .env                 # Environment variables (create this)
+└── README.md            # This file
 ```
 
 ## 🧪 Testing
@@ -169,7 +171,7 @@ Contributions are welcome! Please follow these steps:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is open source and available for use.
 
 ## 👤 Author
 
